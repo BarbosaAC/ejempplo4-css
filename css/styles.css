@@ -112,7 +112,15 @@ a:hover{
 	font-size:30px;
 }
 #btn-github{
-	background-color: black;
+	background-color: white;
+	display:flex;
+	justify-content:center;
+	align-items: center;	
+	border:2px solid black;
+}
+#btn-github>i{
+	font-size:60px;
+	color:#211F1F; 
 }
 #btn-twitter{
 	background-color: #55acee;
