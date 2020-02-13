@@ -12,6 +12,9 @@ button{
 	outline: none;
 	border:none;
 }
+button:hover{
+	opacity: 0.85;
+}
 a{
 	color:gray;
 	text-decoration:none; 
@@ -62,7 +65,9 @@ a:hover{
 	bottom: 0;
 	color:white;
 	font-size:20px;
-	align-content: center;
+	display:flex;
+	align-items: center;
+	justify-content: center;
 	box-shadow: 5px 5px 25px 3px black; 
 }
 .body-box{
@@ -99,6 +104,9 @@ a:hover{
 	border-radius: 50%;
 	background-color: green;
 }
+.btn:hover{
+	opacity: 0.65;
+}
 #btn-facebook{
 	background-color: #3c5899;
 	display: flex;
@@ -124,6 +132,14 @@ a:hover{
 }
 #btn-twitter{
 	background-color: #55acee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border:2px solid #178de8;
+}
+#btn-twitter>i{
+	font-size:30px;
+	color:white;
 }
 
 #btn-singin{
