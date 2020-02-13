@@ -101,8 +101,15 @@ a:hover{
 }
 #btn-facebook{
 	background-color: #3c5899;
-	align-content: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	border:2px solid blue;
 
+}
+#btn-facebook>i{
+	font-size:30px;
 }
 #btn-github{
 	background-color: black;
