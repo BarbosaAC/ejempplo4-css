@@ -127,7 +127,7 @@ a:hover{
 	border:2px solid black;
 }
 #btn-github>i{
-	font-size:60px;
+	font-size:61px;
 	color:#211F1F; 
 }
 #btn-twitter{
@@ -157,4 +157,10 @@ a:hover{
 	text-align:center;
 	color:gray;
 	font-size:small;
+}
+.title-box > img{
+	width:"100"; 
+	height:"200";
+	margin-top: 27px;
+	margin-left: 40px;
 }
